@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+body {
+	height: 100%;
+	font-family: 'Montserrat', 'Arial', sans-serif;
+}
+.ba-block {
+	background: url('../img/background.jpg');
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#payment_form {
+	position: absolute;
+	min-width: 336px;
+	left: 50%;
+	top: 50%;
+	background: #fff;
+	transform: translate(-50%, -50%);
+}
+#month {
+	border: 2px solid #bac8cb;
+	width: 60%;
+	margin: 0 1em 0 0;
+}
+#year {
+	border: 2px solid #bac8cb;
+	width: 32%;
+}
+#month:focus {
+	border-color: #82d4e7;
+	outline: none;
+}
+#year:focus {
+	border-color: #82d4e7;
+	outline: none;
+}
+#cvv {
+	width: 100px;
+	margin: 0 0.3em 0 0;
+}
+.form_title {
+	padding: 0 25px;
+	width: 100%;
+	background: #f8edaf;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+.form_title h1 {
+	color:  #6e7f7b;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0;	
+}
+.form_title h2 {
+	color:  #a6a28d;
+	font-size: 10px;
+	font-weight: 400;
+	margin: 0;
+	text-transform: uppercase;
+}
+.beet_total {
+	color:  #637570;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 2em;
+}
+.form_body, .form-title, .form_footer {
+	padding: 25px;
+}
+.hint {
+	font-size: 13px;
+}
+.submit {
+	display: block;
+	width: 100%;
+	line-height: 2em;
+	background: #25b86a;
+	color: #fff;
+	font-weight: 700;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+}
+.submit:hover {
+	box-shadow: 0 3px 20px rgba(0,0,0,.25), 
+	inset 0 2px 0 rgba(255,255,255,.6), 
+	inset 0 2px 0 rgba(0,0,0,.1);
+}
+label {
+	display: block;
+	color: #9eabad;
+	font-size: 13px;
+	margin: 0.5em 0;
+}
+input:focus {
+	border-color: #82d4e7;
+	outline: none;
+}
+input {
+	padding: 0 1em;
+	width: 100%;
+	border: 2px solid #bac8cb;
+	line-height: 2em;
+}
+fieldset {
+	margin: 2em 0;
+	border: 0;
+	padding: 0;
+	
+}
+a {
+	display: block;
+	color:  #9eabad;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	text-align: center;
+	margin: 1.5em 0 0 0;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: underline;
+}
+select {
+  height: 2em;
+  padding: 0 1em;
+  line-height: 1em;
+}
+ 
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
